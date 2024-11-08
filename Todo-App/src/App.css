@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  width: 100%;
+}
+.content{
+  font-size: larger;
+  padding-right: 20px;
+}
+form input {
+  font-size: larger;
+}
+#root{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.addBtn{
+  padding: 5px 50px !important;
+}
